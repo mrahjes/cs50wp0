@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>Image Search</title>
+        <script>
+            function redirect_home()
+            {
+                location.href = "index.html";
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            <button onclick="redirect_home()"> Google </button>
+        </h1>
+        <form action="https://www.google.com/images">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
+</html>
