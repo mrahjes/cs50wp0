@@ -12,12 +12,29 @@
         </script>
     </head>
     <body>
-        <h1>
+        <h1 align="right">
             <button onclick="redirect_home()"> Google Search </button>
         </h1>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div>
+            Advanced Search
+        </div>
+        <div>
+            Find pages with...
+            <form action="https://www.google.com/search">
+                all these words:
+                <input type="text" name="as_q">
+                <br><br>
+                this exact word or phrase:
+                <input type="text" name="as_epq">
+                <br><br>
+                any of these words:
+                <input type="text" name="as_oq">
+                <br><br>
+                none of these words:
+                <input type="text" name="as_eq">
+                <br><br>
+                <input type="submit" value="Advanced Search">
+            </form>
+        </div>
     </body>
 </html>
