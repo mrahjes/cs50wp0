@@ -13,13 +13,16 @@
     </head>
     <body>
         <h1 align="right">
-            <button onclick="redirect_home()"> Google Search </button>
+            <button class="redirect" onclick="redirect_home()"> Google Search </button>
         </h1>
+        <h2>
+            <img src="google_image.png" width="300">
+        </h2>
         <div>
             <form action="https://www.google.com/images" align="center">
-                <input type="text" name="q">
+                <input class="basic" type="text" name="q">
                 <br><br>
-                <input type="submit" value="Google Search">
+                <input class="search" type="submit" value="Image Search">
             </form>
         </div>
     </body>

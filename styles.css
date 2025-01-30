@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+}
+
+.redirect {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.redirect:hover {
+    text-decoration: underline;
+}
+
+.search{
+    background-color: #f8f9fa;
+    color: black;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+}
+
+.search:hover{
+    filter:drop-shadow(0.5px 1px #D3D3D3) drop-shadow(0.5px -0.5px #D3D3D3)
+    drop-shadow(-0.5px 1px #D3D3D3) drop-shadow(-0.5px -0.5px #D3D3D3);
+}
+
+.basic {
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+}
