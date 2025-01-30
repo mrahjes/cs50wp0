@@ -30,3 +30,15 @@ h2 {
     padding: 5px;
     border-radius: 5px;
 }
+
+.container{
+    display: flex;
+}
+
+.column1 {
+    width: 70%;
+}
+
+.column2 {
+    width: 30%;
+}
