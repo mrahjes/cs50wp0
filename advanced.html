@@ -12,45 +12,66 @@
         </script>
     </head>
     <body>
-        <h1 align="right">
-            <button class="redirect" onclick="redirect_home()"> Google Search </button>
+        <h1>
+            <img src="google_logo.png" width="75" align="left">
+            <button style="float:right" class="redirect" onclick="redirect_home()"> Google Search </button>
         </h1>
-        <div>
+        <h1><br></h1>
+        <div id="header1">
             Advanced Search
+            <br>
+            <hr>
         </div>
         <div  class="container">
         <div class="column1">
-            Find pages with...
-            <form action="https://www.google.com/search">
-                all these words:
-                <input type="text" name="as_q">
-                <br><br>
-                this exact word or phrase:
-                <input type="text" name="as_epq">
-                <br><br>
-                any of these words:
-                <input type="text" name="as_oq">
-                <br><br>
-                none of these words:
-                <input type="text" name="as_eq">
-                <br><br>
-                <input type="submit" value="Advanced Search">
-            </form>
+                <p id="header2">
+                    Find pages with...
+                </p>
+                <p style="line-height: 200%;">
+                    all these words:
+                </p>
+                <p style="line-height: 200%;">
+                    this exact word or phrase:
+                </p>
+                <p style="line-height: 200%;">
+                    any of these words:
+                </p>
+                <p style="line-height: 200%;">
+                    none of these words:
+                </p>
         </div>
         <div class="column2">
             <p>
+                <br><br>
+            </p>
+        <form action="https://www.google.com/search">
+            <br>
+            <input type="text" name="as_q">
+            <br><br>
+            <input type="text" name="as_epq">
+            <br><br>
+            <input type="text" name="as_oq">
+            <br><br>
+            <input type="text" name="as_eq">
+            <br><br>
+            <input id="advanced" type="submit" value="Advanced Search">
+        </form>
+    </div>
+        <div class="column3">
+            <p id="header3">
+                <br>
                 To do this in the search box
             </p>
-            <p>
+            <p style="line-height: 240%;">
                 Type the important words: tricolor rat terrier
             </p>
-            <p>
+            <p style="line-height: 240%;">
                 Put exact words in quotes: "rat terrier"
             </p>
-            <p>
+            <p style="line-height: 240%;">
                 Type OR between all words you want: miniature OR standard
             </p>
-            <p>
+            <p style="line-height: 240%;">
                 Put a minus sign just before words you don't want: -rodent, -"Jack Russell"
             </p>
         </div>
